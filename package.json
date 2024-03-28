@@ -1,0 +1,16 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "A barebones boilerplate with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./css/styles.css -o ./build/css/styles.css --watch",
+    "build": "npx tailwindcss -i ./css/styles.css -o ./build/css/styles.css"
+  },
+  "keywords": [],
+  "author": "Elikem Daniels",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
